@@ -70,7 +70,7 @@ npm run dev
 ### 🟢 Pantalla de Inicio de Sesión
 ![Pantalla de inicio de sesión](assets/inicio-secion.png)
 
-### 🟢 Pantalla de Inicio de Sesión
+### 🟢 Pantalla de crear cuenta
 ![Pantalla de crear cuenta](assets/crear-cuenta.png)
 
 ### 🗂️ Pantalla Principal de Notas
