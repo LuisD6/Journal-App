@@ -4,6 +4,8 @@
 
 Este proyecto tiene como propósito principal demostrar las habilidades del autor como desarrollador, integrando tecnologías modernas del ecosistema React y una arquitectura robusta basada en Redux Toolkit y Firebase.
 
+👉 [Ver la aplicación en línea](https://journal-app-luisd6b2s-projects.vercel.app/#/auth/login)
+
 ---
 
 ## 🚀 Funcionalidades
