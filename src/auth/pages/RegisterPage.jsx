@@ -57,6 +57,7 @@ export const RegisterPage = () => {
           <Grid2 container spacing={2}>
             <TextField
               fullWidth
+              autocomplete="username"
               id="name"
               label="Nombre completo"
               placeholder="Nombre completo"
@@ -65,7 +66,6 @@ export const RegisterPage = () => {
               name="displayName"
               value={ displayName }
               onChange={ onInputChange }
-              autoComplete="off"
               error={ !!displayNameValid && formSubmitted}
               helperText={ displayNameValid }
             />
@@ -77,7 +77,7 @@ export const RegisterPage = () => {
               placeholder="correo@google.com"
               type="email"
               variant="outlined"
-              autoComplete="off"
+              autoComplete="email"
               name="email"
               value={ email }
               onChange={ onInputChange }
@@ -92,7 +92,7 @@ export const RegisterPage = () => {
               placeholder="password"
               type="password"
               variant="outlined"
-              autoComplete="off"
+              autocomplete="current-password"              
               name="password"
               value={ password }
               onChange={ onInputChange }

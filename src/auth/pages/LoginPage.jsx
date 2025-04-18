@@ -49,6 +49,7 @@ export const LoginPage = () => {
               type="email"
               placeholder="correo@google.com"
               fullWidth
+              autocomplete="username"
               name="email"
               value={ email }
               onChange={ onInputChange }
@@ -59,6 +60,7 @@ export const LoginPage = () => {
               type="password"
               placeholder="Contraseña"
               fullWidth
+              autocomplete="current-password"
               name="password"
               value={ password }
               onChange={ onInputChange }
