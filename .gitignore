@@ -15,7 +15,6 @@ dist-ssr
 # .gitignore
 .env
 .env.local
-.env*
 
 
 
